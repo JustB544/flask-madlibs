@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Madlibs</title>
+    <link rel="stylesheet" href="/static/style.css?u={{ last_updated }}">
+</head>
+
+<body>
+    <h1>Madlibs</h1>
+    <form action="/story">
+        <div class="inputs">
+            <label for="place">Place</label>
+            <input id="place" name="place" />
+        </div>
+        <div class="inputs">
+            <label for="noun">Noun</label>
+            <input id="noun" name="noun" />
+        </div>
+        <div class="inputs">
+            <label for="verb">Verb</label>
+            <input id="verb" name="verb" />
+        </div>
+        <div class="inputs">
+            <label for="adjective">Adjective</label>
+            <input id="adjective" name="adjective" />
+        </div>
+        <div class="inputs">
+            <label for="plural_noun">Plural Noun</label>
+            <input id="plural_noun" name="plural_noun" />
+        </div>
+        <button id="button">Submit</button>
+    </form>
+</body>
+
+</html>
